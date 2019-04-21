@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"D:\My Soft\WorkingSpace\Apps\My Note\MyNote\MyNote\MyNote.WindowsPhone\obj\ARM\Release\split.scale-140.pri"			"resources.pri"
+"D:\My Soft\WorkingSpace\Apps\My Note\MyNote\MyNote\MyNote.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-140.png"			"Assets\SplashScreen.scale-140.png"
+"D:\My Soft\WorkingSpace\Apps\My Note\MyNote\MyNote\MyNote.WindowsPhone\obj\ARM\Release\PackageLayout\Assets\BadgeLogo.scale-140.png"			"Assets\BadgeLogo.scale-140.png"

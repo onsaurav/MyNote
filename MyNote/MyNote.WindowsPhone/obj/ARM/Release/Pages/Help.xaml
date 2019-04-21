@@ -1,0 +1,104 @@
+﻿<Page
+    x:Class="MyNote.Pages.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyNote.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" x:Name="appBar" Background="Green">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:ConnectionId='1' Name="appbarAboutus" Icon="Admin" IsCompact="False" Label="About Us"                            />
+                <AppBarButton x:ConnectionId='2' Name="appbarExit" Icon="Cancel" IsCompact="False" Label="Exit"                         />
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="White" >
+        <Border Margin="10" CornerRadius="5" BorderThickness="3" BorderBrush="Green" >
+            <ScrollViewer>
+                <StackPanel Margin="10" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+                    <Grid Background="Green" Margin="15,5,15,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="75"/>
+                            <ColumnDefinition Width="200*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Width="70" Source="ms-appx:///Assets/agt_login.png" />
+                        <TextBlock Grid.Column="1" Text="My Note" TextWrapping="Wrap" FontSize="36"  Foreground="White" Margin="15,6,15.167,36"/>
+                        <TextBlock Grid.Column="1" Text="Now keep your daily notes on your mobile, Just make a note." TextWrapping="Wrap"   Foreground="White" Margin="15,52,15.167,7"/>
+                    </Grid>
+
+                    <TextBlock Text="Help" FontSize="18" FontWeight ="Bold" Foreground="Green" Margin="15,15,15,5"/>
+                    <StackPanel Height="2" Background="Green" Margin="15,0,15,10"/>
+
+                    <Grid Margin="15,15,15,15" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="Auto">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="300*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="5*"/>
+                            </Grid.RowDefinitions>
+
+                            <Image Grid.Column="0"  Grid.Row="0" Source="ms-appx:///Assets/circle_green.png" VerticalAlignment="Top" Height="8" Width="8" />
+                            <TextBlock Grid.Column="1"  Grid.Row="0" TextWrapping="Wrap" Foreground="Green">
+                                <Bold>How to register?</Bold>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Span Foreground="Black">
+                                    There was a button in the first page "Register". If you click on it 
+                                    profile page there an edit button on the bottom, By which you can register easily
+                                    for this app. It is just your profile creation.
+                                </Span>
+                            </TextBlock>
+                            
+                            <Image Margin="0,20,0,0" Grid.Column="0"  Grid.Row="1" Source="ms-appx:///Assets/circle_green.png" VerticalAlignment="Top" Height="8" Width="8" />
+                            <TextBlock Margin="0,20,0,0" Grid.Column="1"  Grid.Row="1" TextWrapping="Wrap" Foreground="Green">
+                                <Bold>How to keep note?</Bold>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Span Foreground="Black">
+                                    Press note button on home page. Note page will nevigate. Fill the information like date, time, 
+                                    your note, you can tag friends, you can add related photo with this note, and also mention
+                                    the location by selecting point from map. Then save the informations
+                                </Span>
+                            </TextBlock>                            
+                                                        
+                            <Image Margin="0,20,0,0" Grid.Column="0"  Grid.Row="3" Source="ms-appx:///Assets/circle_green.png" VerticalAlignment="Top" Height="8" Width="8" />
+                            <TextBlock Margin="0,20,0,0" Grid.Column="1"  Grid.Row="3" TextWrapping="Wrap" Foreground="Green">
+                                <Bold>How to add photo?</Bold>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Span Foreground="Black">
+                                    Just click on "Select photo (optional)" button and select a photo from your galary.
+                                    It will be sabed from your note, as related photo.
+                                </Span>
+                            </TextBlock>
+                            
+                            <Image Margin="0,20,0,0" Grid.Column="0"  Grid.Row="4" Source="ms-appx:///Assets/circle_green.png" VerticalAlignment="Top" Height="8" Width="8" />
+                            <TextBlock Margin="0,20,0,0" Grid.Column="1"  Grid.Row="4" TextWrapping="Wrap" Foreground="Green">
+                                <Bold>How to add location?</Bold>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Span Foreground="Black">
+                                    Click the "Select location (Optional)" button, a map will popup with your 
+                                    current location, now select the point from map, what you want to locate, 
+                                    the latitude and longitude will be saved with your note.
+                                </Span>
+                            </TextBlock>
+                            
+                        </Grid>
+                 </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Page>
+

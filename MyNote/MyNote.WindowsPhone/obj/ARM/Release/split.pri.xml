@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="9576onsoft.MyNote1.0" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MyNote.WindowsPhone.xr.xml" uri="ms-resource://9576onsoft.MyNote1.0/Files/MyNote.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>MyNote.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="aboutus.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/aboutus.png">
+					<Candidate type="Path">
+						<Value>Assets\aboutus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="agt_login.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/agt_login.png">
+					<Candidate type="Path">
+						<Value>Assets\agt_login.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="circle_green.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/circle_green.png">
+					<Candidate type="Path">
+						<Value>Assets\circle_green.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="deletered.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/deletered.png">
+					<Candidate type="Path">
+						<Value>Assets\deletered.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="help.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/help.png">
+					<Candidate type="Path">
+						<Value>Assets\help.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="notes.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/notes.png">
+					<Candidate type="Path">
+						<Value>Assets\notes.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pin_red.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/pin_red.png">
+					<Candidate type="Path">
+						<Value>Assets\pin_red.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="profile.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/profile.png">
+					<Candidate type="Path">
+						<Value>Assets\profile.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="user1.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/user1.png">
+					<Candidate type="Path">
+						<Value>Assets\user1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="view.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/view.png">
+					<Candidate type="Path">
+						<Value>Assets\view.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://9576onsoft.MyNote1.0/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pages">
+				<NamedResource name="AboutUs.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/AboutUs.xbf">
+					<Candidate type="Path">
+						<Value>Pages\AboutUs.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Help.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/Help.xbf">
+					<Candidate type="Path">
+						<Value>Pages\Help.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoteDetail.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/NoteDetail.xbf">
+					<Candidate type="Path">
+						<Value>Pages\NoteDetail.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoteItem.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/NoteItem.xbf">
+					<Candidate type="Path">
+						<Value>Pages\NoteItem.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NotesViewer.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/NotesViewer.xbf">
+					<Candidate type="Path">
+						<Value>Pages\NotesViewer.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Profile.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/Profile.xbf">
+					<Candidate type="Path">
+						<Value>Pages\Profile.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RegisterNewUser.xbf" uri="ms-resource://9576onsoft.MyNote1.0/Files/Pages/RegisterNewUser.xbf">
+					<Candidate type="Path">
+						<Value>Pages\RegisterNewUser.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
